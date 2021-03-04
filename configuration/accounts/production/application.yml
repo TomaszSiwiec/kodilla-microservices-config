@@ -19,4 +19,4 @@ logging:
         type: TRACE
 
 accounts:
-  allow-get-accounts: true
+  allow-get-accounts: false

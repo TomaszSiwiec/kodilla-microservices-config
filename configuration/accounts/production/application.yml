@@ -13,6 +13,17 @@ accounts:
         ddl-auto: update
   allow-get-accounts: true
 
+customers:
+  datasource:
+    url: jdbc:mysql://gymapp.socom.pl:3306/gymappso_kodillatest?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: gymappso_kodillatest
+    password: testtest
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        ddl-auto: update
+
 logging:
   level:
     org:

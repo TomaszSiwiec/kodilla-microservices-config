@@ -1,7 +1,7 @@
 server:
   port: 7777
 
-spring:
+accounts:
   datasource:
     url: jdbc:mysql://gymapp.socom.pl:3306/gymappso_kodillatest?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
     username: gymappso_kodillatest
@@ -11,12 +11,11 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
         ddl-auto: create-drop
+  allow-get-accounts: true
+
 logging:
   level:
     org:
       hibernate:
         SQL: DEBUG
         type: TRACE
-
-accounts:
-  allow-get-accounts: true

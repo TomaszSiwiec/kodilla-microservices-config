@@ -10,7 +10,7 @@ accounts:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-        ddl-auto: create-drop
+        ddl-auto: update
   allow-get-accounts: true
 
 logging:

@@ -1,7 +1,7 @@
 customer:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://gymapp123.socom.pl:3306/gymappso_kodillatest?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    url: jdbc:mysql://gymapp.socom.pl:3306/gymappso_kodillatest?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
     username: gymappso_kodillatest
     password: testtest
   jpa:

@@ -18,4 +18,4 @@ logging:
         type: TRACE
 
 server:
-  port: 7778
+  port: 0

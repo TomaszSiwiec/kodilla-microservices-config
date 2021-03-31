@@ -19,3 +19,7 @@ logging:
 
 server:
   port: 0
+
+feign:
+  hystrix:
+    enabled: true
